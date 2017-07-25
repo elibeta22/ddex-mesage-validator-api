@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ddex-message-validator-api.iml" filepath="$PROJECT_DIR$/.idea/ddex-message-validator-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetty_tutorial.iml" filepath="$PROJECT_DIR$/jetty_tutorial.iml" />
     </modules>
   </component>
 </project>

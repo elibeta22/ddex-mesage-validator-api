@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: stax:stax:1.1.1-dev">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/stax/stax/1.1.1-dev/stax-1.1.1-dev.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/stax/stax/1.1.1-dev/stax-1.1.1-dev-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/stax/stax/1.1.1-dev/stax-1.1.1-dev-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
