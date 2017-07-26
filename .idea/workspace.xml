@@ -2,250 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="949dfc42-f5e6-4302-9b2e-c9fac55efe56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/commons-io/commons-io/2.2/commons-io-2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/net/ddex/ddex-message-validator-api/1.0-SNAPSHOT/ddex-message-validator-api-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/net/java/dev/stax-utils/stax-utils/20060502/stax-utils-20060502.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/net/sf/saxon/Saxon-HE/9.7.0-15/Saxon-HE-9.7.0-15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/codehaus/mojo/appassembler/appassembler-booter/1.10/appassembler-booter-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/codehaus/mojo/appassembler/appassembler-model/1.10/appassembler-model-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-continuation/9.2.15.v20160210/jetty-continuation-9.2.15.v20160210.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-http/9.4.6.v20170531/jetty-http-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-io/9.4.6.v20170531/jetty-io-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-security/9.4.3.v20170317/jetty-security-9.4.3.v20170317.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-server/9.4.6.v20170531/jetty-server-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-servlet/9.4.3.v20170317/jetty-servlet-9.4.3.v20170317.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-servlets/9.2.15.v20160210/jetty-servlets-9.2.15.v20160210.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-util/9.4.6.v20170531/jetty-util-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/stax/stax-api/1.0.1/stax-api-1.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/appassembler/repo/stax/stax/1.1.1-dev/stax-1.1.1-dev.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/config/AppConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/config/WebMvcConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/controller/ValidateController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/exception/ValidatorException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/initializer/EmbeddedJetty.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/schema/Schema.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/schema/SchemaFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/schema/ThreeFourOneSchema.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/service/SchemaService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/service/SchematronService$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/service/SchematronService$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/service/SchematronService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/vo/ValidationResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/ern/vo/ValidationResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/util/SchematronHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/util/XMLHelper$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/ddex/util/XMLHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ddex-message-validator-api-1.0-SNAPSHOT-bin.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ddex-message-validator-api-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/commons-io/commons-io/2.2/commons-io-2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/net/ddex/ddex-message-validator-api/1.0-SNAPSHOT/ddex-message-validator-api-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/net/java/dev/stax-utils/stax-utils/20060502/stax-utils-20060502.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/net/sf/saxon/Saxon-HE/9.7.0-15/Saxon-HE-9.7.0-15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/codehaus/mojo/appassembler/appassembler-booter/1.10/appassembler-booter-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/codehaus/mojo/appassembler/appassembler-model/1.10/appassembler-model-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-continuation/9.2.15.v20160210/jetty-continuation-9.2.15.v20160210.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-http/9.4.6.v20170531/jetty-http-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-io/9.4.6.v20170531/jetty-io-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-security/9.4.3.v20170317/jetty-security-9.4.3.v20170317.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-server/9.4.6.v20170531/jetty-server-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-servlet/9.4.3.v20170317/jetty-servlet-9.4.3.v20170317.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-servlets/9.2.15.v20160210/jetty-servlets-9.2.15.v20160210.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-util/9.4.6.v20170531/jetty-util-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/stax/stax-api/1.0.1/stax-api-1.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/stax/stax/1.1.1-dev/stax-1.1.1-dev.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/commons-io/commons-io/2.2/commons-io-2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/net/ddex/ddex-message-validator-api/1.0-SNAPSHOT/ddex-message-validator-api-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/net/java/dev/stax-utils/stax-utils/20060502/stax-utils-20060502.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/net/sf/saxon/Saxon-HE/9.7.0-15/Saxon-HE-9.7.0-15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/codehaus/mojo/appassembler/appassembler-booter/1.10/appassembler-booter-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/codehaus/mojo/appassembler/appassembler-model/1.10/appassembler-model-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-continuation/9.2.15.v20160210/jetty-continuation-9.2.15.v20160210.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-http/9.4.6.v20170531/jetty-http-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-io/9.4.6.v20170531/jetty-io-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-security/9.4.3.v20170317/jetty-security-9.4.3.v20170317.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-server/9.4.6.v20170531/jetty-server-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-servlet/9.4.3.v20170317/jetty-servlet-9.4.3.v20170317.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-servlets/9.2.15.v20160210/jetty-servlets-9.2.15.v20160210.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-util/9.4.6.v20170531/jetty-util-9.4.6.v20170531.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/stax/stax-api/1.0.1/stax-api-1.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/stax/stax/1.1.1-dev/stax-1.1.1-dev.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_stax_utils_stax_utils_20060502.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_saxon_Saxon_HE_9_7_0_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_appassembler_appassembler_booter_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_appassembler_appassembler_model_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_6_v20170531.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_6_v20170531.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_3_v20170317.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_6_v20170531.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_3_v20170317.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_6_v20170531.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_1_1_1_dev.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jetty_tutorial.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_BusinessProfile_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_AudioAlbumMusicOnly_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_AudioAlbum_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_AudioBook_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_AudioSingle_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_DigitalBoxedSet_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_DigitalClassicalAudioAlbum_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_FilmBundle_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_LongformVideo_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_MidiRingtone_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_MixedMediaBundle_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_Ringtone_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_SimpleVideoSingle_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_SingleResourceReleaseWithCoverArt_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_SingleResourceRelease_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_TVSeries_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_VideoAlbum_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schematron/NewReleaseMessage_ReleaseProfile_VideoSingle_14.sch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/assembly/bin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/config/AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/config/WebMvcConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/initializer/EmbeddedJetty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/bin/start-api" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/bin/start-api.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ddex-message-validator-api.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-mesage-validator-api-master/ddex-message-validator-api.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/hs_err_pid13444.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/replay_pid13444.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/settings.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/webapp/WEB-INF/ern-validator-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/webapp/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/webapp/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/schema/ddex.xsd" afterPath="$PROJECT_DIR$/schema/ddex.xsd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/schema/ddexC.xsd" afterPath="$PROJECT_DIR$/schema/ddexC.xsd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/schema/iso3166a2.xsd" afterPath="$PROJECT_DIR$/schema/iso3166a2.xsd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/schema/iso4217a.xsd" afterPath="$PROJECT_DIR$/schema/iso4217a.xsd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/schema/iso639a2.xsd" afterPath="$PROJECT_DIR$/schema/iso639a2.xsd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/schema/release-notification.xsd" afterPath="$PROJECT_DIR$/schema/release-notification.xsd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/ern/controller/ValidateController.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/controller/ValidateController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/ern/exception/ValidatorException.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/exception/ValidatorException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/ern/schema/Schema.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/schema/Schema.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/ern/schema/SchemaFactory.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/schema/SchemaFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/ern/schema/ThreeFourOneSchema.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/schema/ThreeFourOneSchema.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/ern/service/SchemaService.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchemaService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/ern/service/SchematronService.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchematronService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/ern/vo/ValidationResponse.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/vo/ValidationResponse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/ern/vo/ValidationResult.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/vo/ValidationResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/util/SchematronHelper.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/util/SchematronHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/src/main/java/net/ddex/util/XMLHelper.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/util/XMLHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xml/Profile_AudioAlbumMusicOnly.xml" afterPath="$PROJECT_DIR$/xml/Profile_AudioAlbumMusicOnly.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xml/Profile_AudioAlbumMusicOnlyNoGridISRC.xml" afterPath="$PROJECT_DIR$/xml/Profile_AudioAlbumMusicOnlyNoGridISRC.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xml/Profile_AudioAlbumMusicOnlyNoMain.xml" afterPath="$PROJECT_DIR$/xml/Profile_AudioAlbumMusicOnlyNoMain.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xml/sme-album.xml" afterPath="$PROJECT_DIR$/xml/sme-album.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xml/sme-single.xml" afterPath="$PROJECT_DIR$/xml/sme-single.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/iso_abstract_expand.xsl" afterPath="$PROJECT_DIR$/xslt/iso_abstract_expand.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/iso_dsdl_include.xsl" afterPath="$PROJECT_DIR$/xslt/iso_dsdl_include.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/iso_schematron_skeleton_for_saxon.xsl" afterPath="$PROJECT_DIR$/xslt/iso_schematron_skeleton_for_saxon.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/iso_svrl_for_xslt2.xsl" afterPath="$PROJECT_DIR$/xslt/iso_svrl_for_xslt2.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/AudioAlbum.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/AudioAlbum.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/AudioAlbumMusicOnly.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/AudioAlbumMusicOnly.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/AudioBook.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/AudioBook.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/AudioSingle.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/AudioSingle.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/BusinessProfile.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/BusinessProfile.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/DigitalBoxedSet.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/DigitalBoxedSet.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/DigitalClassicalAudioAlbum.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/DigitalClassicalAudioAlbum.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/FilmBundle.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/FilmBundle.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/LongformVideo.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/LongformVideo.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/MidiRingtone.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/MidiRingtone.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/MixedMediaBundle.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/MixedMediaBundle.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/Ringtone.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/Ringtone.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/SimpleVideoSingle.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/SimpleVideoSingle.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/SingleResourceRelease.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/SingleResourceRelease.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/SingleResourceReleaseWithCoverArt.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/SingleResourceReleaseWithCoverArt.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/TVSeries.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/TVSeries.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/VideoAlbum.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/VideoAlbum.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/14/VideoSingle.xsl" afterPath="$PROJECT_DIR$/xslt/profiles/14/VideoSingle.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ddex-message-validator-master/xslt/profiles/NewReleaseMessage_ReleaseProfile_AudioAlbumMusicOnly_14.xslt" afterPath="$PROJECT_DIR$/xslt/profiles/NewReleaseMessage_ReleaseProfile_AudioAlbumMusicOnly_14.xslt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/commons-io/commons-io/2.2/commons-io-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/net/ddex/ddex-message-validator-api/1.0-SNAPSHOT/ddex-message-validator-api-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/net/java/dev/stax-utils/stax-utils/20060502/stax-utils-20060502.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/net/sf/saxon/Saxon-HE/9.7.0-15/Saxon-HE-9.7.0-15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/codehaus/mojo/appassembler/appassembler-booter/1.10/appassembler-booter-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/codehaus/mojo/appassembler/appassembler-model/1.10/appassembler-model-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-continuation/9.2.15.v20160210/jetty-continuation-9.2.15.v20160210.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-http/9.4.6.v20170531/jetty-http-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-io/9.4.6.v20170531/jetty-io-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-security/9.4.3.v20170317/jetty-security-9.4.3.v20170317.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-server/9.4.6.v20170531/jetty-server-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-servlet/9.4.3.v20170317/jetty-servlet-9.4.3.v20170317.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-servlets/9.2.15.v20160210/jetty-servlets-9.2.15.v20160210.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/eclipse/jetty/jetty-util/9.4.6.v20170531/jetty-util-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/stax/stax-api/1.0.1/stax-api-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/appassembler/repo/stax/stax/1.1.1-dev/stax-1.1.1-dev.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/config/AppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/config/WebMvcConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/controller/ValidateController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/exception/ValidatorException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/initializer/EmbeddedJetty.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/schema/Schema.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/schema/SchemaFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/schema/ThreeFourOneSchema.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/service/SchemaService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/service/SchematronService$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/service/SchematronService$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/service/SchematronService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/vo/ValidationResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/ern/vo/ValidationResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/util/SchematronHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/util/XMLHelper$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/net/ddex/util/XMLHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ddex-message-validator-api-1.0-SNAPSHOT-bin.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ddex-message-validator-api-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/bin/start-api" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/commons-io/commons-io/2.2/commons-io-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/net/ddex/ddex-message-validator-api/1.0-SNAPSHOT/ddex-message-validator-api-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/net/java/dev/stax-utils/stax-utils/20060502/stax-utils-20060502.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/net/sf/saxon/Saxon-HE/9.7.0-15/Saxon-HE-9.7.0-15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/codehaus/mojo/appassembler/appassembler-booter/1.10/appassembler-booter-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/codehaus/mojo/appassembler/appassembler-model/1.10/appassembler-model-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-continuation/9.2.15.v20160210/jetty-continuation-9.2.15.v20160210.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-http/9.4.6.v20170531/jetty-http-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-io/9.4.6.v20170531/jetty-io-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-security/9.4.3.v20170317/jetty-security-9.4.3.v20170317.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-server/9.4.6.v20170531/jetty-server-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-servlet/9.4.3.v20170317/jetty-servlet-9.4.3.v20170317.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-servlets/9.2.15.v20160210/jetty-servlets-9.2.15.v20160210.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/eclipse/jetty/jetty-util/9.4.6.v20170531/jetty-util-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/stax/stax-api/1.0.1/stax-api-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api/lib/stax/stax/1.1.1-dev/stax-1.1.1-dev.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/bin/start-api.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/commons-io/commons-io/2.2/commons-io-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/net/ddex/ddex-message-validator-api/1.0-SNAPSHOT/ddex-message-validator-api-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/net/java/dev/stax-utils/stax-utils/20060502/stax-utils-20060502.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/net/sf/saxon/Saxon-HE/9.7.0-15/Saxon-HE-9.7.0-15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/codehaus/mojo/appassembler/appassembler-booter/1.10/appassembler-booter-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/codehaus/mojo/appassembler/appassembler-model/1.10/appassembler-model-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-continuation/9.2.15.v20160210/jetty-continuation-9.2.15.v20160210.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-http/9.4.6.v20170531/jetty-http-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-io/9.4.6.v20170531/jetty-io-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-security/9.4.3.v20170317/jetty-security-9.4.3.v20170317.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-server/9.4.6.v20170531/jetty-server-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-servlet/9.4.3.v20170317/jetty-servlet-9.4.3.v20170317.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-servlets/9.2.15.v20160210/jetty-servlets-9.2.15.v20160210.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/eclipse/jetty/jetty-util/9.4.6.v20170531/jetty-util-9.4.6.v20170531.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/stax/stax-api/1.0.1/stax-api-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/appassembler/booter-windows/etc/start-api/lib/stax/stax/1.1.1-dev/stax-1.1.1-dev.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetty_tutorial.iml" afterPath="$PROJECT_DIR$/jetty_tutorial.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assembly/bin.xml" afterPath="$PROJECT_DIR$/src/main/assembly/bin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/ddex/ern/controller/ValidateController.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/controller/ValidateController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchemaService.java" afterPath="$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchemaService.java" />
     </list>
     <ignored path="jetty_tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -267,31 +149,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="187">
+              <caret line="128" column="27" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidationResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/vo/ValidationResult.java">
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="328">
+              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmbeddedJetty.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/initializer/EmbeddedJetty.java">
+      <file leaf-file-name="jetty_tutorial.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jetty_tutorial.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="445">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -300,28 +182,48 @@
       <file leaf-file-name="bin.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/assembly/bin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1175">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="37" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/config/AppConfig.java">
+      <file leaf-file-name="SchemaService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchemaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="208">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebMvcConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/config/WebMvcConfig.java">
+      <file leaf-file-name="SchematronService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchematronService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="139" column="13" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidateController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/controller/ValidateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmbeddedJetty.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/initializer/EmbeddedJetty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -339,6 +241,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -355,8 +260,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/EmbeddedJettyMain.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/ddex/ern/config/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/ddex/ern/controller/ValidateController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchemaService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Manifest.txt" />
         <option value="$PROJECT_DIR$/Manifest.txt" />
         <option value="$PROJECT_DIR$/mvnw.bat" />
@@ -364,8 +267,12 @@
         <option value="$PROJECT_DIR$/src/main/java/net/ddex/ern/vo/ValidationResult.java" />
         <option value="$PROJECT_DIR$/src/main/scripts/app" />
         <option value="$PROJECT_DIR$/src/main/java/net/ddex/ern/initializer/EmbeddedJetty.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/assembly/bin.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchemaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/ddex/ern/controller/ValidateController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/Logs/application.log" />
       </list>
     </option>
   </component>
@@ -387,7 +294,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="1942" />
+    <option name="width" value="1934" />
     <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -415,7 +322,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -424,30 +331,95 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddex-mesage-validator-api-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddex-mesage-validator-api-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddex-mesage-validator-api-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddex-mesage-validator-api-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddex-mesage-validator-api-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddex-mesage-validator-api-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddex-mesage-validator-api-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddex-mesage-validator-api-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/spring_security_test" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17122395" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\scripts" />
-      <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src\main" />
       <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src\main\java\net\ddex\ern\initializer" />
       <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src\main\java" />
       <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src" />
       <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ddex-mesage-validator-api-master\src\main\resources" />
+      <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\scripts" />
+      <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.EmbeddedJetty">
@@ -757,31 +729,39 @@
       <option name="presentableId" value="Default" />
       <updated>1491862419688</updated>
     </task>
+    <task id="LOCAL-00001" summary="Embedded Jetty">
+      <created>1501011844702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501011844702</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="0" />
+    <frame x="-11" y="-11" width="1934" height="1042" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.372176" sideWeight="0.50216216" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42054054" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36973834" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37336504" sideWeight="0.50651467" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42019543" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.372176" sideWeight="0.49783784" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36741975" sideWeight="0.49348533" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37336504" sideWeight="0.49348533" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21513514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21498372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -800,6 +780,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Embedded Jetty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Embedded Jetty" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -811,8 +795,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/EmbeddedJettyMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ExampleServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -865,13 +847,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ern-validator-servlet.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/index.html" />
-    <entry file="file://$PROJECT_DIR$/jetty_tutorial.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18500">
@@ -894,13 +869,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/net/ddex/ern/initializer/EmbeddedJetty.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchemaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.6.v20170531/jetty-server-9.4.6.v20170531.jar!/org/eclipse/jetty/server/ServerConnector.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5050">
@@ -909,13 +877,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Manifest.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/controller/ValidateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvnw.bat" />
     <entry file="file://$PROJECT_DIR$/maven/maven-wrapper.properties" />
     <entry file="file://$PROJECT_DIR$/mvnw" />
@@ -924,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -932,14 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchematronService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="95" column="55" selection-start-line="95" selection-start-column="55" selection-end-line="95" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -948,15 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/initializer/EmbeddedJetty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,14 +912,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/bin/my-server" />
-    <entry file="file://$PROJECT_DIR$/src/main/assembly/bin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-resources/appassembler/booter-unix/etc/start-api.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -984,10 +919,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchemaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/service/SchematronService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="139" column="13" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/controller/ValidateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/ddex/ern/initializer/EmbeddedJetty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty_tutorial.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="187">
+          <caret line="128" column="27" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/assembly/bin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding />
         </state>
       </provider>

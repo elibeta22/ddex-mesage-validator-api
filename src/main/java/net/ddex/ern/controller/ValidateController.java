@@ -77,12 +77,10 @@ public class ValidateController {
     @PostMapping(path = "/json/validateSchema")
     public String validateSchemaJSON(@RequestParam(value = "ernFile") MultipartFile file) throws ValidatorException, ParserConfigurationException, IOException, SAXException {
         logger.info("Test validate method {}", "Blam");
-        //FileInputStream is  = new FileInputStream(new File("xml/sme-album.xml"));
-//        ThreeFourOneSchema schema = new ThreeFourOneSchema();
-        ThreeFourOneSchema schemaLove = new ThreeFourOneSchema();
+        ThreeFourOneSchema schema = new ThreeFourOneSchema();
 
         try {
-            return schemaLove.validate(schemaService.validate(file.getInputStream()),null);
+            return schema.validate(schemaService.validate(file.getInputStream()),null);
         } catch(IOException e) {
             logger.error(e.getMessage());
             return e.getMessage();

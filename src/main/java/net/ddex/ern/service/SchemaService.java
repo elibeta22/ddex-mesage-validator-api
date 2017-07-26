@@ -35,22 +35,7 @@ public class SchemaService {
         DocumentBuilder parser = null;
         parser = dbf.newDocumentBuilder();
         Document ret = parser.parse(is);
-
-//        parser.setEntityResolver(new NullResolver());
-
-
-//        try {
-//            parser.parse(is);
-//
-//        } catch (ParserException e) {
-//            System.out.println(e.getMessage());
-//
-//        } catch (SAXException e) {
-//            System.out.println(e.getMessage());
-//        }
-
         return ret;
-        //return ;
     }
 
 
@@ -61,6 +46,5 @@ public class SchemaService {
         DocumentBuilder parser = dbf.newDocumentBuilder();
         System.out.println("Zoinks!!!!");
         return null;
-        //return parser.parse(new File("schema/motherboard.pdf"));
     }
 }

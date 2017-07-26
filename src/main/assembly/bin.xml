@@ -28,7 +28,7 @@
                     ${project.basedir}/jetty_tutorial.iml
                 </exclude>
                 <exclude>
-                    ${project.basedir}/.idea
+                    ${project.basedir}/.idea/**
                 </exclude>
             </excludes>
             <outputDirectory>bin</outputDirectory>
