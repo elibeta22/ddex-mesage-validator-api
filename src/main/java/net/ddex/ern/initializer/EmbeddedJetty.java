@@ -76,7 +76,6 @@ public class EmbeddedJetty {
         fm.setFilterName("cross-origin");
         fm.setPathSpec("*");
         context.getServletHandler().addFilter(holder, fm);
-        System.out.print("this is bullshit");
     }
 
 
