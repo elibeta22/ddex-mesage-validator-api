@@ -133,9 +133,10 @@ public class SchematronService {
 
     }
 
-    public List<Map<String, String>> schematron2Map(InputStream is) throws XMLStreamException, IOException,
+    public List<Map<String, String>> schematron2Map(InputStream is, String schematronVersion, String productVersion) throws XMLStreamException, IOException,
             TransformerException, XPathExpressionException {
-        String XSLT_FILE = "xslt/profiles/14/AudioAlbumMusicOnly.xsl";
+
+        String XSLT_FILE = ("xslt/profiles/"+schematronVersion+"/"+productVersion+".xsl");
         SAXSource saxSource = new SAXSource(new InputSource(is));
         DOMResult result = new DOMResult();
         SAXTransformerFactory stf = new net.sf.saxon.TransformerFactoryImpl();
@@ -176,7 +177,7 @@ public class SchematronService {
             XPathExpression exprMsg = xpath.compile(msg);
             XPathExpression exprRole = xpath.compile(role);
 
-            Map<String, String> failure = new HashMap<>();
+            Map<String, String > failure = new HashMap<>();
             failure.put("role", exprRole.evaluate(result.getNode()));
             failure.put("msg", exprMsg.evaluate(result.getNode()));
             data.add(failure);
