@@ -72,28 +72,6 @@ public class ValidateController {
 
     }
 
-//    public String validateSchemaJSON(@RequestParam(value = "ernFile") MultipartFile file, @RequestParam(value= "version") String version) throws ValidatorException, ParserConfigurationException, IOException, SAXException {
-//        logger.info("Test validate method {}", "Blam");
-//
-//        return "butt";
-//
-//
-//        try {
-//            return schema.validate(schemaService.validate(file.getInputStream()),null);
-//        } catch(IOException e) {
-//            logger.error(e.getMessage());
-//            return e.getMessage();
-//        } catch(ValidatorException e) {
-//            logger.error(e.getMessage());
-//            return e.getMessage();
-//        }catch (SAXException e){
-//            logger.error(e.getMessage());
-//            return e.getMessage();
-//
-//        }
-//
-//    }
-
     @ExceptionHandler
     public ValidationResponse handleValidatorException(ValidatorException ex) {
         ex.printStackTrace();
