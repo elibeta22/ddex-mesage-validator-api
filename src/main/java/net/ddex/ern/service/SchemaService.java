@@ -44,8 +44,6 @@ public class SchemaService {
         switch(schemaVersion) {
 
             case "3.4.1" :
-                System.out.println("Excellent!");
-
                  try {
                     return schema341.validate(ret,null);
                 } catch(ValidatorException e) {
@@ -54,8 +52,6 @@ public class SchemaService {
                 }
 
             case "3.7.1" :
-                System.out.println("Well done");
-
                 try {
                     return schema371.validate(ret,null);
                 } catch(ValidatorException e) {
