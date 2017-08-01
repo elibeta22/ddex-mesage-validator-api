@@ -8,3 +8,7 @@ XML documents against schema (XSD) and advanced XML validation (Schematron). XML
   <li>Unix</li>
   <li>Maven</li>
 </ul>
+
+<h2>Building</h2>
+<pre>mvn clean install</pre>
+
