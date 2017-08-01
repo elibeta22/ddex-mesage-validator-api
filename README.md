@@ -1,2 +1,2 @@
-<h1>DDEX XML validator</h1>
+<title>DDEX XML validator</title>
 <p>Validator API</p>

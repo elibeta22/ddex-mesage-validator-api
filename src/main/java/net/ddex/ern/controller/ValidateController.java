@@ -60,13 +60,14 @@ public class ValidateController {
                                                           @RequestParam(value = "productVersion") String productVersion)
           throws ParserConfigurationException, SAXException, IOException,
           XMLStreamException, TransformerException, XPathExpressionException {
-    logger.info("Validating ERN {} as version {}. ", file.getOriginalFilename(), "ERN-3.4.1");
+    logger.info("Validating ERN {} as schematron version {} and product version {}. ", file.getOriginalFilename(), schematronVersion, productVersion);
     return schematronService.schematron2Map(file.getInputStream(), schematronVersion, productVersion);
   }
 
     @PostMapping(path = "/json/validateSchema")
     public String validateSchemaJSON(@RequestParam("schemaVersion") String schemaVersion,
                                    @RequestParam("ernFile") MultipartFile file) throws ValidatorException, ParserConfigurationException, IOException, SAXException {
+        logger.info("Validating ERN {} as schema version {}. ", file.getOriginalFilename(), schemaVersion);
 
         return schemaService.validate(file.getInputStream(), schemaVersion);
 
