@@ -10,5 +10,7 @@ XML documents against schema (XSD) and advanced XML validation (Schematron). XML
 </ul>
 
 <h2>Building</h2>
+<p>To build the source you can run the command in the project directory.</p>
 <pre>mvn clean install</pre>
-
+<p>After a file with the name ddex-message-validator-api-1.0-SNAPSHOT-bin.zip will appear in 'target/' directory. Unzip the file and and you will see three folders bin, etc, repo. Within the bin you will also see start-api.sh and start-api.bat, in your command line you can start the API by typing the following below in your command line.</p>
+<pre>start-api</pre>
