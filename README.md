@@ -15,3 +15,7 @@ XML documents against schema (XSD) and advanced XML validation (Schematron). XML
 <p>After, a file with the name ddex-message-validator-api-1.0-SNAPSHOT-bin.zip will appear in 'target/' directory. Unzip the file and and you will see three folders bin, etc, repo. Within the bin folder you will also see start-api.sh and start-api.bat. In your command line you can start the API by typing the following below.</p>
 <pre>start-api</pre>
 <p>If you are using IntelliJ or Eclipse you can also run it from within your IDE locally. </p>
+
+<h2>Working with the code</h2>
+<p>If you don't have a personal IDE preference we recommend you use IntelliJ when working with the code. We use the maven <a href="http://maven.apache.org/plugins/maven-assembly-plugin/">assembly</a> and
+<a href="http://www.mojohaus.org/appassembler/appassembler-maven-plugin/">appassembly</a> plugin for wrapper script packaging support.</p>
