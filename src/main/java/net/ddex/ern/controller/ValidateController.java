@@ -64,7 +64,7 @@ public class ValidateController {
     return schematronService.schematron2Map(file.getInputStream(), schematronVersion, productVersion);
   }
 
-    @PostMapping(path = "/json/validateSchema")
+    @PostMapping(path = "/json/validateSchema", produces = "text/plain" )
     public String validateSchemaJSON(@RequestParam("schemaVersion") String schemaVersion,
                                    @RequestParam("ernFile") MultipartFile file) throws ValidatorException, ParserConfigurationException, IOException, SAXException {
         logger.info("Validating ERN {} as schema version {}. ", file.getOriginalFilename(), schemaVersion);

@@ -27,5 +27,7 @@ XML documents against schema (XSD) and advanced XML validation (Schematron). XML
   <li>SAX</li>
   <li>Logback</li>
 </ul>
+<p>The API uses <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html">Spring-WebMVC</a> framework which provides a Model-View-Controller architecture. Having a MVC structure in our application allows for the input logic, business logic, and UI logic to be seperated but still have the flexible ability to loosely couple these elements together.</p>
+<pre>curl -X POST -F 'schemaVersion=3.4.1' -F 'ernFile=@C:\ddex-mesage-validator-api-master\xml\sme-album.xml' localhost:6060/api/json/validateSchema</pre>
 
 
