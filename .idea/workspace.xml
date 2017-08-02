@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="949dfc42-f5e6-4302-9b2e-c9fac55efe56" name="Default" comment="" />
+    <list default="true" id="949dfc42-f5e6-4302-9b2e-c9fac55efe56" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="jetty_tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,8 +37,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            <state relative-caret-position="300">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -588,11 +590,11 @@
       <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ddex-mesage-validator-api-master" />
       <recent name="C:\ddex-mesage-validator-api-master\src\main\resources" />
       <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src\main" />
       <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src\main\java\net\ddex\ern\initializer" />
       <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src\main\java" />
-      <recent name="C:\Users\eli\IdeaProjects\jetty_tutorial\src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.EmbeddedJetty">
@@ -914,7 +916,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -925,7 +927,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43297297" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32699168" sideWeight="0.45783785" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37574315" sideWeight="0.46648648" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37574315" sideWeight="0.46648648" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21297297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1189,8 +1191,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
