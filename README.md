@@ -19,3 +19,13 @@ XML documents against schema (XSD) and advanced XML validation (Schematron). XML
 <h2>Working with the code</h2>
 <p>If you don't have a personal IDE preference we recommend you use IntelliJ when working with the code. We use the maven <a href="http://maven.apache.org/plugins/maven-assembly-plugin/">assembly</a> and
 <a href="http://www.mojohaus.org/appassembler/appassembler-maven-plugin/">appassembly</a> plugin for wrapper script packaging support.</p>
+<h3>Technologies</h3>
+<ul>
+  <li>Java</li>
+  <li>Spring</li>
+  <li>Embedded Jetty</li>
+  <li>SAX</li>
+  <li>Logback</li>
+</ul>
+
+
