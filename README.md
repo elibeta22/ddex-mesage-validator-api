@@ -42,4 +42,4 @@ XML documents against schema (XSD) and advanced XML validation (Schematron). XML
 <p>Schematron example</p>
 <pre>curl -X POST -F 'schematronVersion=1.4' -F 'profileVersion=AudioAlbum' -F 'ernFile=@location\xml\sme-album.xml'  localhost:6060/api/json/validateSchematron</pre>
 <p>Another way is to use our frontend (<a href="https://github.com/elibeta22/ddex-message-validator-client">DDEX XML Validator Client</a>) that we have created using <a href="https://facebook.github.io/react/">React</a> to access the api, which is a friendly UI for you to use.</p>
-<img src="C:\ddex-mesage-validator-api-master\src\main\resources\DDEX-XML-UI.png" alt="Mountain View" style="width:304px;height:228px;">
+<img src="DDEX-XML-UI.png" alt="Mountain View" style="width:304px;height:228px;">
