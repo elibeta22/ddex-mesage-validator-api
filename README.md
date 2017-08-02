@@ -36,10 +36,10 @@ XML documents against schema (XSD) and advanced XML validation (Schematron). XML
   <li>Curl</li>
   <li>DDEX XML Validator React Client</li>
 </ul>
-<p>you can use <a href="https://curl.haxx.se/">cURL</a> command line tool to use the API to validate your XML documents.</p>
+<p>You can use <a href="https://curl.haxx.se/">cURL</a> command line tool to use the API to validate your XML documents.</p>
 <p>Schema (XSD) example</p>
 <pre>curl -X POST -F 'schemaVersion=3.4.1' -F 'ernFile=@location\xml\sme-album.xml' localhost:6060/api/json/validateSchema</pre>
 <p>Schematron example</p>
 <pre>curl -X POST -F 'schematronVersion=1.4' -F 'profileVersion=AudioAlbum' -F 'ernFile=@location\xml\sme-album.xml'  localhost:6060/api/json/validateSchematron</pre>
-
-
+<p>Another way is to use our frontend (<a href="https://github.com/elibeta22/ddex-message-validator-client">DDEX XML Validator Client</a>) that we have created using <a href="https://facebook.github.io/react/">React</a> to access the api, which is a friendly UI for you to use.</p>
+<img src="C:\ddex-mesage-validator-api-master\src\main\resources\DDEX-XML-UI.png" alt="Mountain View" style="width:304px;height:228px;">
