@@ -57,11 +57,11 @@ public class ValidateController {
   @PostMapping(path = "/json/validateSchematron", produces = "application/json")
   public List<Map<String, String>> validateSchematronJSON(@RequestParam(value = "ernFile") MultipartFile file,
                                                           @RequestParam(value = "schematronVersion") String schematronVersion,
-                                                          @RequestParam(value = "productVersion") String productVersion)
+                                                          @RequestParam(value = "profileVersion") String profileVersion)
           throws ParserConfigurationException, SAXException, IOException,
           XMLStreamException, TransformerException, XPathExpressionException {
-    logger.info("Validating ERN {} as schematron version {} and product version {}. ", file.getOriginalFilename(), schematronVersion, productVersion);
-    return schematronService.schematron2Map(file.getInputStream(), schematronVersion, productVersion);
+    logger.info("Validating ERN {} as schematron version {} and product version {}. ", file.getOriginalFilename(), schematronVersion, profileVersion);
+    return schematronService.schematron2Map(file.getInputStream(), schematronVersion, profileVersion);
   }
 
     @PostMapping(path = "/json/validateSchema", produces = "text/plain" )

@@ -133,10 +133,10 @@ public class SchematronService {
 
     }
 
-    public List<Map<String, String>> schematron2Map(InputStream is, String schematronVersion, String productVersion) throws XMLStreamException, IOException,
+    public List<Map<String, String>> schematron2Map(InputStream is, String schematronVersion, String profileVersion) throws XMLStreamException, IOException,
             TransformerException, XPathExpressionException {
 
-        String XSLT_FILE = ("xslt/profiles/"+schematronVersion+"/"+productVersion+".xsl");
+        String XSLT_FILE = ("xslt/profiles/"+schematronVersion+"/"+profileVersion+".xsl");
         SAXSource saxSource = new SAXSource(new InputSource(is));
         DOMResult result = new DOMResult();
         SAXTransformerFactory stf = new net.sf.saxon.TransformerFactoryImpl();
