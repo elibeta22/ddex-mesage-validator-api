@@ -68,9 +68,13 @@ public class ValidateController {
     public String validateSchemaJSON(@RequestParam("schemaVersion") String schemaVersion,
                                    @RequestParam("ernFile") MultipartFile file) throws SAXException, ParserConfigurationException, IOException, ValidatorException  {
         logger.info("Validating ERN {} as schema version {}. ", file.getOriginalFilename(), schemaVersion);
-
+        try {
             return schemaService.validate(file.getInputStream(), schemaVersion);
+        }catch (SAXException e){
+            logger.error(e.getMessage());
+            return e.getMessage();
 
+        }
     }
 
     @ExceptionHandler
