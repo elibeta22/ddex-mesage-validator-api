@@ -1,0 +1,973 @@
+2017-08-03 16:19:55,755 429  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @683ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 16:19:55,988 662  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 16:19:56,106 780  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 16:19:58,918 3592 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 16:19:58,944 3618 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 16:19:59,153 3827 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 16:19:59,155 3829 [main] INFO  org.eclipse.jetty.server.Server - Started @4086ms
+2017-08-03 16:19:59,156 3830 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 16:31:42,572 427  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @693ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 16:31:42,869 724  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 16:31:42,992 847  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 16:31:46,013 3868 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 16:31:46,046 3901 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 16:31:46,340 4195 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 16:31:46,341 4196 [main] INFO  org.eclipse.jetty.server.Server - Started @4465ms
+2017-08-03 16:31:46,341 4196 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 16:32:48,863 66718 [qtp922151033-16] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 16:32:48,886 66741 [qtp922151033-16] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchema
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 42; The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: org.xml.sax.SAXParseException: The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[na:1.8.0_131]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_131]
+	at net.ddex.ern.service.SchemaService.validate(SchemaService.java:42) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchemaJSON(ValidateController.java:73) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+2017-08-03 16:37:52,048 434  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @702ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 16:37:52,283 669  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 16:37:52,387 773  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 16:37:55,167 3553 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 16:37:55,183 3569 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 16:37:55,357 3743 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 16:37:55,357 3743 [main] INFO  org.eclipse.jetty.server.Server - Started @4014ms
+2017-08-03 16:37:55,357 3743 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 16:38:03,040 11426 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 16:38:11,390 19776 [qtp922151033-15] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 16:40:15,002 465  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @723ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 16:40:15,299 762  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 16:40:15,411 874  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 16:40:18,726 4189 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 16:40:18,767 4230 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 16:40:19,255 4718 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 16:40:19,256 4719 [main] INFO  org.eclipse.jetty.server.Server - Started @4981ms
+2017-08-03 16:40:19,257 4720 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 16:41:00,192 411  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @682ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 16:41:00,449 668  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 16:41:00,568 787  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 16:41:03,318 3537 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 16:41:03,336 3555 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 16:41:03,532 3751 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@635fc97a{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 16:41:03,533 3752 [main] INFO  org.eclipse.jetty.server.Server - Started @4026ms
+2017-08-03 16:41:03,533 3752 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 16:41:16,407 16626 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 16:51:11,303 441  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @691ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 16:51:11,553 691  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 16:51:11,668 806  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 16:51:15,196 4334 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 16:51:15,227 4365 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 16:51:15,601 4739 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 16:51:15,601 4739 [main] INFO  org.eclipse.jetty.server.Server - Started @4993ms
+2017-08-03 16:51:15,602 4740 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 16:51:52,181 436  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @697ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 16:51:52,418 673  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 16:51:52,524 779  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 16:51:55,406 3661 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 16:51:55,434 3689 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 16:51:55,662 3917 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 16:51:55,663 3918 [main] INFO  org.eclipse.jetty.server.Server - Started @4182ms
+2017-08-03 16:51:55,664 3919 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 16:52:08,788 17043 [qtp922151033-17] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 16:52:08,818 17073 [qtp922151033-17] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchema
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 42; The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: org.xml.sax.SAXParseException: The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[na:1.8.0_131]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_131]
+	at net.ddex.ern.service.SchemaService.validate(SchemaService.java:42) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchemaJSON(ValidateController.java:73) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+2017-08-03 16:54:52,481 515  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @777ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 16:54:52,925 959  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 16:54:53,055 1089 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 16:54:56,313 4347 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 16:54:56,333 4367 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 16:54:56,533 4567 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4701ef43{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 16:54:56,534 4568 [main] INFO  org.eclipse.jetty.server.Server - Started @4837ms
+2017-08-03 16:54:56,536 4570 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 16:55:10,027 18061 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 16:55:10,047 18081 [qtp922151033-12] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchema
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 42; The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: org.xml.sax.SAXParseException: The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[na:1.8.0_131]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_131]
+	at net.ddex.ern.service.SchemaService.validate(SchemaService.java:43) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchemaJSON(ValidateController.java:73) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+2017-08-03 16:57:48,168 419  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @686ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 16:57:48,417 668  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 16:57:48,531 782  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 16:57:51,362 3613 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 16:57:51,381 3632 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 16:57:51,573 3824 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 16:57:51,574 3825 [main] INFO  org.eclipse.jetty.server.Server - Started @4096ms
+2017-08-03 16:57:51,575 3826 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 16:58:04,948 17199 [qtp922151033-15] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 16:58:04,971 17222 [qtp922151033-15] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchema
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 42; The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: org.xml.sax.SAXParseException: The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[na:1.8.0_131]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_131]
+	at net.ddex.ern.service.SchemaService.validate(SchemaService.java:43) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchemaJSON(ValidateController.java:72) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+2017-08-03 17:00:32,162 417  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @668ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:00:32,409 664  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:00:32,534 789  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:00:35,463 3718 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:00:35,485 3740 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:00:35,688 3943 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:00:35,689 3944 [main] INFO  org.eclipse.jetty.server.Server - Started @4198ms
+2017-08-03 17:00:35,689 3944 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:00:47,633 15888 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:00:47,654 15909 [qtp922151033-12] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchema
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 42; The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: org.xml.sax.SAXParseException: The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[na:1.8.0_131]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_131]
+	at net.ddex.ern.service.SchemaService.validate(SchemaService.java:42) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchemaJSON(ValidateController.java:72) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+2017-08-03 17:06:52,509 415  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @670ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:06:52,749 655  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:06:52,872 778  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:06:55,784 3690 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:06:55,805 3711 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:06:55,988 3894 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:06:55,988 3894 [main] INFO  org.eclipse.jetty.server.Server - Started @4153ms
+2017-08-03 17:06:55,988 3894 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:07:09,768 17674 [qtp922151033-15] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:07:09,780 17686 [qtp922151033-15] ERROR n.d.e.controller.ValidateController - The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+2017-08-03 17:14:45,438 436  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @707ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:14:45,701 699  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:14:45,820 818  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:14:48,717 3715 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:14:48,735 3733 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:14:48,928 3926 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:14:48,929 3927 [main] INFO  org.eclipse.jetty.server.Server - Started @4203ms
+2017-08-03 17:14:48,929 3927 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:14:59,076 14074 [qtp922151033-19] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:14:59,090 14088 [qtp922151033-19] ERROR n.d.e.controller.ValidateController - The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+2017-08-03 17:17:20,647 406  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @667ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:17:20,882 641  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:17:21,014 773  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:17:23,752 3511 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:17:23,769 3528 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:17:23,930 3689 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:17:23,930 3689 [main] INFO  org.eclipse.jetty.server.Server - Started @3955ms
+2017-08-03 17:17:23,931 3690 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:17:34,879 14638 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:17:34,946 14705 [qtp922151033-12] ERROR n.d.ern.schema.ThreeFourOneSchema - cvc-complex-type.2.4.a: Invalid content was found starting with element 'Partyid'. One of '{PartyId}' is expected.
+2017-08-03 17:18:03,208 434  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @672ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:18:03,462 688  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:18:03,565 791  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:18:06,424 3650 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:18:06,441 3667 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:18:06,602 3828 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:18:06,602 3828 [main] INFO  org.eclipse.jetty.server.Server - Started @4071ms
+2017-08-03 17:18:06,603 3829 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:19:02,309 59535 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:19:02,366 59592 [qtp922151033-12] ERROR n.d.ern.schema.ThreeFourOneSchema - cvc-complex-type.2.4.a: Invalid content was found starting with element 'Partyid'. One of '{PartyId}' is expected.
+2017-08-03 17:19:34,719 409  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @675ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:19:34,979 669  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:19:35,090 780  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:19:37,862 3552 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:19:37,882 3572 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:19:38,038 3728 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:19:38,039 3729 [main] INFO  org.eclipse.jetty.server.Server - Started @4000ms
+2017-08-03 17:19:38,039 3729 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:19:57,034 427  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @700ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:19:57,320 713  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:19:57,425 818  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:20:00,185 3578 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:20:00,209 3602 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:20:00,423 3816 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:20:00,424 3817 [main] INFO  org.eclipse.jetty.server.Server - Started @4095ms
+2017-08-03 17:20:00,424 3817 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:20:12,155 15548 [qtp922151033-13] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:20:12,166 15559 [qtp922151033-13] ERROR n.d.e.controller.ValidateController - The element type "PartyId" must be terminated by the matching end-tag "</PartyId>".
+2017-08-03 17:20:44,935 48328 [qtp922151033-13] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:21:46,424 419  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @676ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:21:46,670 665  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:21:46,785 780  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:21:49,688 3683 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:21:49,709 3704 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:21:49,864 3859 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:21:49,865 3860 [main] INFO  org.eclipse.jetty.server.Server - Started @4121ms
+2017-08-03 17:21:49,865 3860 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:22:00,370 14365 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:22:00,424 14419 [qtp922151033-12] ERROR net.ddex.ern.service.SchemaService - org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element 'Partyid'. One of '{PartyId}' is expected.
+2017-08-03 17:22:18,647 32642 [qtp922151033-15] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:22:18,654 32649 [qtp922151033-15] ERROR n.d.e.controller.ValidateController - The element type "Partyid" must be terminated by the matching end-tag "</Partyid>".
+2017-08-03 17:25:40,508 404  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @670ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:25:40,760 656  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:25:40,881 777  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:25:43,696 3592 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:25:43,721 3617 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:25:43,892 3788 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:25:43,893 3789 [main] INFO  org.eclipse.jetty.server.Server - Started @4060ms
+2017-08-03 17:25:43,893 3789 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:25:55,006 14902 [qtp922151033-17] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:25:55,047 14943 [qtp922151033-17] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchema
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 42; The element type "Partyid" must be terminated by the matching end-tag "</Partyid>".
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.xml.sax.SAXParseException: The element type "Partyid" must be terminated by the matching end-tag "</Partyid>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[na:1.8.0_131]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_131]
+	at net.ddex.ern.service.SchemaService.validate(SchemaService.java:42) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchemaJSON(ValidateController.java:73) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+2017-08-03 17:26:12,500 32396 [qtp922151033-19] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:26:12,555 32451 [qtp922151033-19] ERROR net.ddex.ern.service.SchemaService - org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element 'Partyid'. One of '{PartyId}' is expected.
+2017-08-03 17:26:33,019 403  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @655ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:26:33,272 656  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:26:33,376 760  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:26:36,089 3473 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:26:36,108 3492 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:26:36,368 3752 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:26:36,368 3752 [main] INFO  org.eclipse.jetty.server.Server - Started @4009ms
+2017-08-03 17:26:36,368 3752 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:26:46,616 14000 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:26:46,668 14052 [qtp922151033-12] ERROR net.ddex.ern.service.SchemaService - org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element 'Partyid'. One of '{PartyId}' is expected.
+2017-08-03 17:27:02,908 30292 [qtp922151033-15] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:27:02,924 30308 [qtp922151033-15] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchema
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 42; The element type "Partyid" must be terminated by the matching end-tag "</Partyid>".
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.xml.sax.SAXParseException: The element type "Partyid" must be terminated by the matching end-tag "</Partyid>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[na:1.8.0_131]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_131]
+	at net.ddex.ern.service.SchemaService.validate(SchemaService.java:42) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchemaJSON(ValidateController.java:73) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+2017-08-03 17:28:14,488 414  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @676ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:28:14,740 666  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:28:14,857 783  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:28:17,724 3650 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:28:17,745 3671 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:28:17,906 3832 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:28:17,906 3832 [main] INFO  org.eclipse.jetty.server.Server - Started @4099ms
+2017-08-03 17:28:17,907 3833 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:28:29,138 15064 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:28:29,179 15105 [qtp922151033-12] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchema
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 42; The element type "Partyid" must be terminated by the matching end-tag "</Partyid>".
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: org.xml.sax.SAXParseException: The element type "Partyid" must be terminated by the matching end-tag "</Partyid>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[na:1.8.0_131]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_131]
+	at net.ddex.ern.service.SchemaService.validate(SchemaService.java:42) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchemaJSON(ValidateController.java:73) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+2017-08-03 17:35:21,232 407  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @665ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:35:21,467 642  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:35:21,572 747  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:35:24,348 3523 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:35:24,373 3548 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:35:24,581 3756 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:35:24,581 3756 [main] INFO  org.eclipse.jetty.server.Server - Started @4018ms
+2017-08-03 17:35:24,582 3757 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:35:36,181 15356 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:35:36,203 15378 [qtp922151033-12] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchema
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 42; The element type "Partyid" must be terminated by the matching end-tag "</Partyid>".
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) ~[jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: org.xml.sax.SAXParseException: The element type "Partyid" must be terminated by the matching end-tag "</Partyid>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[na:1.8.0_131]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[na:1.8.0_131]
+	at net.ddex.ern.service.SchemaService.validate(SchemaService.java:41) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchemaJSON(ValidateController.java:73) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+2017-08-03 17:37:04,530 103705 [qtp922151033-15] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:37:04,588 103763 [qtp922151033-15] ERROR n.d.ern.schema.ThreeFourOneSchema - cvc-complex-type.2.4.a: Invalid content was found starting with element 'Partyid'. One of '{PartyId}' is expected.
+2017-08-03 17:37:04,627 103802 [qtp922151033-14] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schematron version schematronVersion and product version profileVersion. 
+2017-08-03 17:37:04,761 103936 [qtp922151033-14] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchematron
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is javax.xml.transform.TransformerConfigurationException: net.sf.saxon.s9api.SaxonApiException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: javax.xml.transform.TransformerConfigurationException: net.sf.saxon.s9api.SaxonApiException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at net.sf.saxon.jaxp.SaxonTransformerFactory.newTemplates(SaxonTransformerFactory.java:157) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.jaxp.SaxonTransformerFactory.newTransformer(SaxonTransformerFactory.java:110) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.ddex.ern.service.SchematronService.schematron2Map(SchematronService.java:143) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchematronJSON(ValidateController.java:64) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+Caused by: net.sf.saxon.s9api.SaxonApiException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at net.sf.saxon.s9api.XsltCompiler.compile(XsltCompiler.java:862) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.jaxp.SaxonTransformerFactory.newTemplates(SaxonTransformerFactory.java:154) ~[Saxon-HE-9.7.0-15.jar:na]
+	... 47 common frames omitted
+Caused by: net.sf.saxon.trans.XPathException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at net.sf.saxon.event.Sender.sendSAXSource(Sender.java:479) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.event.Sender.send(Sender.java:179) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.style.StylesheetModule.loadStylesheet(StylesheetModule.java:233) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.style.Compilation.compileSingletonPackage(Compilation.java:101) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.s9api.XsltCompiler.compile(XsltCompiler.java:859) ~[Saxon-HE-9.7.0-15.jar:na]
+	... 48 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[na:1.8.0_131]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[na:1.8.0_131]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:148) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:805) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) ~[na:1.8.0_131]
+	at net.sf.saxon.event.Sender.sendSAXSource(Sender.java:451) ~[Saxon-HE-9.7.0-15.jar:na]
+	... 52 common frames omitted
+2017-08-03 17:38:00,978 160153 [qtp922151033-13] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:38:00,994 160169 [qtp922151033-13] ERROR n.d.ern.schema.ThreeFourOneSchema - cvc-complex-type.2.4.a: Invalid content was found starting with element 'Partyid'. One of '{PartyId}' is expected.
+2017-08-03 17:38:01,030 160205 [qtp922151033-14] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schematron version schematronVersion and product version profileVersion. 
+2017-08-03 17:38:01,036 160211 [qtp922151033-14] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchematron
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is javax.xml.transform.TransformerConfigurationException: net.sf.saxon.s9api.SaxonApiException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: javax.xml.transform.TransformerConfigurationException: net.sf.saxon.s9api.SaxonApiException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at net.sf.saxon.jaxp.SaxonTransformerFactory.newTemplates(SaxonTransformerFactory.java:157) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.jaxp.SaxonTransformerFactory.newTransformer(SaxonTransformerFactory.java:110) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.ddex.ern.service.SchematronService.schematron2Map(SchematronService.java:143) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchematronJSON(ValidateController.java:64) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+Caused by: net.sf.saxon.s9api.SaxonApiException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at net.sf.saxon.s9api.XsltCompiler.compile(XsltCompiler.java:862) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.jaxp.SaxonTransformerFactory.newTemplates(SaxonTransformerFactory.java:154) ~[Saxon-HE-9.7.0-15.jar:na]
+	... 47 common frames omitted
+Caused by: net.sf.saxon.trans.XPathException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at net.sf.saxon.event.Sender.sendSAXSource(Sender.java:479) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.event.Sender.send(Sender.java:179) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.style.StylesheetModule.loadStylesheet(StylesheetModule.java:233) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.style.Compilation.compileSingletonPackage(Compilation.java:101) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.s9api.XsltCompiler.compile(XsltCompiler.java:859) ~[Saxon-HE-9.7.0-15.jar:na]
+	... 48 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[na:1.8.0_131]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[na:1.8.0_131]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:148) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:805) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) ~[na:1.8.0_131]
+	at net.sf.saxon.event.Sender.sendSAXSource(Sender.java:451) ~[Saxon-HE-9.7.0-15.jar:na]
+	... 52 common frames omitted
+2017-08-03 17:38:56,187 424  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @674ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:38:56,437 674  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:38:56,569 806  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:38:59,611 3848 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:38:59,633 3870 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:38:59,822 4059 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:38:59,823 4060 [main] INFO  org.eclipse.jetty.server.Server - Started @4313ms
+2017-08-03 17:38:59,823 4060 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:39:08,953 13190 [qtp922151033-12] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:39:09,015 13252 [qtp922151033-12] ERROR n.d.ern.schema.ThreeFourOneSchema - cvc-complex-type.2.4.a: Invalid content was found starting with element 'Partyid'. One of '{PartyId}' is expected.
+2017-08-03 17:39:09,054 13291 [qtp922151033-15] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schematron version schematronVersion and product version profileVersion. 
+2017-08-03 17:39:09,198 13435 [qtp922151033-15] WARN  o.eclipse.jetty.server.HttpChannel - /api/json/validateSchematron
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is javax.xml.transform.TransformerConfigurationException: net.sf.saxon.s9api.SaxonApiException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:257) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:220) ~[jetty-servlets-9.2.15.v20160210.jar:9.2.15.v20160210]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) ~[jetty-servlet-9.4.3.v20170317.jar:9.4.3.v20170317]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) ~[jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: javax.xml.transform.TransformerConfigurationException: net.sf.saxon.s9api.SaxonApiException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at net.sf.saxon.jaxp.SaxonTransformerFactory.newTemplates(SaxonTransformerFactory.java:157) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.jaxp.SaxonTransformerFactory.newTransformer(SaxonTransformerFactory.java:110) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.ddex.ern.service.SchematronService.schematron2Map(SchematronService.java:143) ~[classes/:na]
+	at net.ddex.ern.controller.ValidateController.validateSchematronJSON(ValidateController.java:64) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 31 common frames omitted
+Caused by: net.sf.saxon.s9api.SaxonApiException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at net.sf.saxon.s9api.XsltCompiler.compile(XsltCompiler.java:862) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.jaxp.SaxonTransformerFactory.newTemplates(SaxonTransformerFactory.java:154) ~[Saxon-HE-9.7.0-15.jar:na]
+	... 47 common frames omitted
+Caused by: net.sf.saxon.trans.XPathException: I/O error reported by XML parser processing xslt/profiles/schematronVersion/profileVersion.xsl: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at net.sf.saxon.event.Sender.sendSAXSource(Sender.java:479) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.event.Sender.send(Sender.java:179) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.style.StylesheetModule.loadStylesheet(StylesheetModule.java:233) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.style.Compilation.compileSingletonPackage(Compilation.java:101) ~[Saxon-HE-9.7.0-15.jar:na]
+	at net.sf.saxon.s9api.XsltCompiler.compile(XsltCompiler.java:859) ~[Saxon-HE-9.7.0-15.jar:na]
+	... 48 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\ddex-mesage-validator-api-master\xslt\profiles\schematronVersion\profileVersion.xsl (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_131]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[na:1.8.0_131]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[na:1.8.0_131]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:148) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:805) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) ~[na:1.8.0_131]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) ~[na:1.8.0_131]
+	at net.sf.saxon.event.Sender.sendSAXSource(Sender.java:451) ~[Saxon-HE-9.7.0-15.jar:na]
+	... 52 common frames omitted
+2017-08-03 17:41:26,474 428  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @697ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:41:26,779 733  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:41:26,896 850  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:41:29,952 3906 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:41:29,967 3921 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:41:30,133 4087 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:41:30,133 4087 [main] INFO  org.eclipse.jetty.server.Server - Started @4361ms
+2017-08-03 17:41:30,134 4088 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:41:47,711 431  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @687ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:41:47,951 671  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:41:48,061 781  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:41:50,920 3640 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:41:50,943 3663 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:41:51,142 3862 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:41:51,142 3862 [main] INFO  org.eclipse.jetty.server.Server - Started @4123ms
+2017-08-03 17:41:51,143 3863 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:42:04,186 16906 [qtp922151033-17] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:43:57,752 436  [main] INFO  org.eclipse.jetty.util.log - Logging initialized @692ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-03 17:43:58,019 703  [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+2017-08-03 17:43:58,133 817  [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring root WebApplicationContext
+2017-08-03 17:44:00,891 3575 [main] INFO  o.e.j.s.handler.ContextHandler.ROOT - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-371a67ec'
+2017-08-03 17:44:00,909 3593 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e5c7f0b{/,null,AVAILABLE}
+2017-08-03 17:44:01,074 3758 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d6300e8{HTTP/1.1,[http/1.1]}{0.0.0.0:6060}
+2017-08-03 17:44:01,074 3758 [main] INFO  org.eclipse.jetty.server.Server - Started @4019ms
+2017-08-03 17:44:01,074 3758 [main] INFO  n.d.ern.initializer.EmbeddedJetty - Server started at port 6060
+2017-08-03 17:47:52,962 235646 [qtp922151033-13] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:47:53,018 235702 [qtp922151033-13] ERROR net.ddex.ern.service.SchemaService - org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element 'Partyid'. One of '{PartyId}' is expected.
+2017-08-03 17:48:11,615 254299 [qtp922151033-16] INFO  n.d.e.controller.ValidateController - Validating ERN sme-album.xml as schema version 3.4.1. 
+2017-08-03 17:48:11,620 254304 [qtp922151033-16] ERROR n.d.e.controller.ValidateController - The element type "Partyid" must be terminated by the matching end-tag "</Partyid>".
+2017-08-03 17:48:19,563 262247 [qtp922151033-21] INFO  n.d.e.controller.ValidateController - Validating ERN Profile_AudioAlbumMusicOnlyNoGridISRC.xml as schema version 3.4.1. 
+2017-08-03 17:48:19,575 262259 [qtp922151033-21] ERROR net.ddex.ern.service.SchemaService - org.xml.sax.SAXParseException; cvc-elt.1: Cannot find the declaration of element 'ern:NewReleaseMessage'.
