@@ -48,7 +48,7 @@ public class SchemaService {
                     return schema341.validate(ret,null);
                 } catch(ValidatorException e) {
                     logger.error(e.getMessage());
-                    return e.getMessage();
+                    return e.getCause().getMessage();
                 }
 
             case "3.7.1" :

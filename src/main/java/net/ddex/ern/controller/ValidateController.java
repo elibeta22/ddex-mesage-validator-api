@@ -22,51 +22,51 @@ import java.util.Map;
 @RestController
 public class ValidateController {
 
-  private static final Logger logger = LoggerFactory.getLogger(ValidateController.class);
+    private static final Logger logger = LoggerFactory.getLogger(ValidateController.class);
 
-  @Autowired
-  private SchemaService schemaService;
+    @Autowired
+    private SchemaService schemaService;
 
-  @Autowired
-  private SchematronService schematronService;
+    @Autowired
+    private SchematronService schematronService;
 
-  @PostMapping(path = "/json/{profileVersion}/{profile}", produces = "application/json")
-  public List<Map<String, String>> jsonPathParam(@PathVariable String profileVersion, @PathVariable String profile,
-                              @RequestParam(value = "ernFile") MultipartFile file) throws IOException, ValidatorException {
+    @PostMapping(path = "/json/{profileVersion}/{profile}", produces = "application/json")
+    public List<Map<String, String>> jsonPathParam(@PathVariable String profileVersion, @PathVariable String profile,
+                                                   @RequestParam(value = "ernFile") MultipartFile file) throws IOException, ValidatorException {
 
-    logger.info("Validating ERN version {} against profile {}. ", profileVersion, profile);
-    try {
-        return schematronService.validate2Map(file.getInputStream(), profileVersion, profile);
-    } catch(IOException e) {
-        logger.error(e.getMessage());
-        throw e;
-    } catch(ValidatorException e) {
-        logger.error(e.getMessage());
-        throw e;
+        logger.info("Validating ERN version {} against profile {}. ", profileVersion, profile);
+        try {
+            return schematronService.validate2Map(file.getInputStream(), profileVersion, profile);
+        } catch(IOException e) {
+            logger.error(e.getMessage());
+            throw e;
+        } catch(ValidatorException e) {
+            logger.error(e.getMessage());
+            throw e;
+        }
     }
-  }
 
-  @PostMapping(path = "/status", produces = "text/plain")
-  public String test()
-          throws ParserConfigurationException, SAXException, IOException,
-          XMLStreamException, TransformerException, XPathExpressionException {
+    @PostMapping(path = "/status", produces = "text/plain")
+    public String test()
+            throws ParserConfigurationException, SAXException, IOException,
+            XMLStreamException, TransformerException, XPathExpressionException {
 
-    return "The service is running";
-  }
+        return "The service is running";
+    }
 
-  @PostMapping(path = "/json/validateSchematron", produces = "application/json")
-  public List<Map<String, String>> validateSchematronJSON(@RequestParam(value = "ernFile") MultipartFile file,
-                                                          @RequestParam(value = "schematronVersion") String schematronVersion,
-                                                          @RequestParam(value = "profileVersion") String profileVersion)
-          throws ParserConfigurationException, SAXException, IOException,
-          XMLStreamException, TransformerException, XPathExpressionException {
-    logger.info("Validating ERN {} as schematron version {} and product version {}. ", file.getOriginalFilename(), schematronVersion, profileVersion);
-    return schematronService.schematron2Map(file.getInputStream(), schematronVersion, profileVersion);
-  }
+    @PostMapping(path = "/json/validateSchematron", produces = "application/json")
+    public List<Map<String, String>> validateSchematronJSON(@RequestParam(value = "ernFile") MultipartFile file,
+                                                            @RequestParam(value = "schematronVersion") String schematronVersion,
+                                                            @RequestParam(value = "profileVersion") String profileVersion)
+            throws ParserConfigurationException, SAXException, IOException,
+            XMLStreamException, TransformerException, XPathExpressionException {
+        logger.info("Validating ERN {} as schematron version {} and product version {}. ", file.getOriginalFilename(), schematronVersion, profileVersion);
+        return schematronService.schematron2Map(file.getInputStream(), schematronVersion, profileVersion);
+    }
 
     @PostMapping(path = "/json/validateSchema", produces = "text/plain" )
     public String validateSchemaJSON(@RequestParam("schemaVersion") String schemaVersion,
-                                   @RequestParam("ernFile") MultipartFile file) throws SAXException, ParserConfigurationException, IOException, ValidatorException  {
+                                     @RequestParam("ernFile") MultipartFile file) throws SAXException, ParserConfigurationException, IOException, ValidatorException  {
         logger.info("Validating ERN {} as schema version {}. ", file.getOriginalFilename(), schemaVersion);
         try {
             return schemaService.validate(file.getInputStream(), schemaVersion);
@@ -82,5 +82,6 @@ public class ValidateController {
         ex.printStackTrace();
         return new ValidationResponse();
     }
+
 
 }

@@ -2,6 +2,7 @@ package net.ddex.ern.schema;
 
 import net.ddex.ern.exception.ValidatorException;
 import org.w3c.dom.Document;
+import org.xml.sax.SAXException;
 
 import javax.xml.transform.Result;
 import javax.xml.validation.Validator;
@@ -11,5 +12,5 @@ import javax.xml.validation.Validator;
  */
 public interface Schema {
     public Validator getValidator();
-    public String validate(Document ern, Result result) throws ValidatorException;
+    public String validate(Document ern, Result result) throws SAXException, ValidatorException;
 }
