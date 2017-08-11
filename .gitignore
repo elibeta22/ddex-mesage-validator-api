@@ -1,7 +1,3 @@
-   # IntelliJ ignore
-.settings/
-.project
-.classpath
 # idea ignore
 .idea/
 *.ipr
