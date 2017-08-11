@@ -44,7 +44,7 @@ public class SchemaService {
         switch(schemaVersion) {
 
             case "3.4.1" :
-                 try {
+                try {
                     return schema341.validate(ret,null);
                 } catch(ValidatorException e) {
                     logger.error(e.getMessage());

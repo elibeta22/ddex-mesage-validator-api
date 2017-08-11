@@ -16,6 +16,8 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.transform.TransformerException;
 import javax.xml.xpath.XPathExpressionException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -71,10 +73,40 @@ public class ValidateController {
         try {
             return schemaService.validate(file.getInputStream(), schemaVersion);
         }catch (SAXException e){
-            logger.error(e.getMessage());
+            logger.error(e.getMessage()+"HAHAHA");
             return e.getMessage();
 
         }
+    }
+
+    @PostMapping(path = "/json/validateXML", produces = "application/json")
+    public List<Map<String, Object>> validateXMLJSON(
+            @RequestParam("ernFile") MultipartFile file,
+            @RequestParam(value = "schematronVersion") String schematronVersion,
+            @RequestParam(value = "profileVersion") String profileVersion,
+            @RequestParam("schemaVersion") String schemaVersion)
+            throws ParserConfigurationException,  IOException,
+            XMLStreamException, TransformerException, SAXException, XPathExpressionException, ValidatorException {
+        logger.info("Validating ERN {} as schema version {}. ", file.getOriginalFilename(), schemaVersion);
+        logger.info("Validating ERN {} as schematron version {} and product version {}. ", file.getOriginalFilename(), schematronVersion, profileVersion);
+        List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
+        Map<String, Object> map = new HashMap<String, Object>();
+        logger.info("working swell");
+
+        try{
+            map.put("schema", schemaService.validate(file.getInputStream(), schemaVersion));
+
+        }catch(SAXException e){
+            logger.info(e.getMessage());
+            map.put("schema",e.getMessage());
+            list.add(map);
+            return list;
+
+        }
+        map.put("schematron", schematronService.schematron2Map(file.getInputStream(), schematronVersion, profileVersion));
+        list.add(map);
+        return list;
+
     }
 
     @ExceptionHandler

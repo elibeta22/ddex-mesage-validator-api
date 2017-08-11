@@ -41,7 +41,7 @@ public class SchematronService {
             throw new ValidatorException(String.format("Profile %s-%s is could not be loaded", version, profile), e);
         }
 
-     }
+    }
 
     private void transform(InputStream xslt, InputStream ern, Result result) throws ValidatorException {
         SAXSource saxSource = new SAXSource(new InputSource(ern));
@@ -116,7 +116,7 @@ public class SchematronService {
         }
 
         return data;
-     }
+    }
 
 
     public String schematron2XML(InputStream is) throws XMLStreamException, IOException, TransformerException {
