@@ -73,7 +73,7 @@ public class ValidateController {
         try {
             return schemaService.validate(file.getInputStream(), schemaVersion);
         }catch (SAXException e){
-            logger.error(e.getMessage()+"HAHAHA");
+            logger.error(e.getMessage());
             return e.getMessage();
 
         }
