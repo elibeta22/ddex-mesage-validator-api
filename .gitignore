@@ -7,4 +7,4 @@
 *.ipr
 *.iml
 *.iws
-jetty_tutorial.iml
+/*.iml
