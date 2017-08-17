@@ -58,20 +58,20 @@ public class ValidateController {
 
     @PostMapping(path = "/json/validateSchematron", produces = "application/json")
     public List<Map<String, String>> validateSchematronJSON(@RequestParam(value = "ernFile") MultipartFile file,
-                                                            @RequestParam(value = "schematronVersion") String schematronVersion,
-                                                            @RequestParam(value = "profileVersion") String profileVersion)
+                                                            @RequestParam(value = "profileVersion") String profileVersion,
+                                                            @RequestParam(value = "releaseVersion") String releaseVersion)
             throws ParserConfigurationException, SAXException, IOException,
             XMLStreamException, TransformerException, XPathExpressionException {
-        logger.info("Validating ERN {} as schematron version {} and product version {}. ", file.getOriginalFilename(), schematronVersion, profileVersion);
-        return schematronService.schematron2Map(file.getInputStream(), schematronVersion, profileVersion);
+        logger.info("Validating ERN {} as schematron version {} and product version {}. ", file.getOriginalFilename(), profileVersion, releaseVersion);
+        return schematronService.schematron2Map(file.getInputStream(), profileVersion, releaseVersion);
     }
 
     @PostMapping(path = "/json/validateSchema", produces = "text/plain" )
-    public String validateSchemaJSON(@RequestParam("schemaVersion") String schemaVersion,
+    public String validateSchemaJSON(@RequestParam("ernVersion") String ernVersion,
                                      @RequestParam("ernFile") MultipartFile file) throws SAXException, ParserConfigurationException, IOException, ValidatorException  {
-        logger.info("Validating ERN {} as schema version {}. ", file.getOriginalFilename(), schemaVersion);
+        logger.info("Validating ERN {} as schema version {}. ", file.getOriginalFilename(), ernVersion);
         try {
-            return schemaService.validate(file.getInputStream(), schemaVersion);
+            return schemaService.validate(file.getInputStream(), ernVersion);
         }catch (SAXException e){
             logger.error(e.getMessage());
             return e.getMessage();
@@ -82,19 +82,19 @@ public class ValidateController {
     @PostMapping(path = "/json/validateXML", produces = "application/json")
     public List<Map<String, Object>> validateXMLJSON(
             @RequestParam("ernFile") MultipartFile file,
-            @RequestParam(value = "schematronVersion") String schematronVersion,
             @RequestParam(value = "profileVersion") String profileVersion,
-            @RequestParam("schemaVersion") String schemaVersion)
+            @RequestParam(value = "releaseVersion") String releaseVersion,
+            @RequestParam("ernVersion") String ernVersion)
             throws ParserConfigurationException,  IOException,
             XMLStreamException, TransformerException, SAXException, XPathExpressionException, ValidatorException {
-        logger.info("Validating ERN {} as schema version {}. ", file.getOriginalFilename(), schemaVersion);
-        logger.info("Validating ERN {} as schematron version {} and product version {}. ", file.getOriginalFilename(), schematronVersion, profileVersion);
+        logger.info("Validating ERN {} as schema version {}. ", file.getOriginalFilename(), ernVersion);
+        logger.info("Validating ERN {} as schematron version {} and product version {}. ", file.getOriginalFilename(), profileVersion, releaseVersion);
         List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
         Map<String, Object> map = new HashMap<String, Object>();
         logger.info("working swell");
 
         try{
-            map.put("schema", schemaService.validate(file.getInputStream(), schemaVersion));
+            map.put("schema", schemaService.validate(file.getInputStream(), ernVersion));
 
         }catch(SAXException e){
             logger.info(e.getMessage());
@@ -103,7 +103,7 @@ public class ValidateController {
             return list;
 
         }
-        map.put("schematron", schematronService.schematron2Map(file.getInputStream(), schematronVersion, profileVersion));
+        map.put("schematron", schematronService.schematron2Map(file.getInputStream(), profileVersion, releaseVersion));
         list.add(map);
         return list;
 

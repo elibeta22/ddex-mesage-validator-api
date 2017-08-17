@@ -34,14 +34,14 @@ public class SchemaService {
 
 
     // TODO: look intializing doucmentbuilder.  Is it expensive to build?  Threadsafe?
-    public String validate(InputStream is, String schemaVersion) throws ParserConfigurationException, IOException , SAXException{
+    public String validate(InputStream is, String ernVersion) throws ParserConfigurationException, IOException , SAXException{
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         dbf.setNamespaceAware(true);
         DocumentBuilder parser = null;
         parser = dbf.newDocumentBuilder();
         Document ret = parser.parse(is);
 
-        switch(schemaVersion) {
+        switch(ernVersion) {
 
             case "3.4.1" :
                 try {
