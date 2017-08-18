@@ -25,10 +25,19 @@
                     ${project.basedir}/pom.xml
                 </exclude>
                 <exclude>
+                    ${project.basedir}/ddex-message-validator-api.iml
+                </exclude>
+                <exclude>
                     ${project.basedir}/jetty_tutorial.iml
                 </exclude>
                 <exclude>
                     ${project.basedir}/.idea/**
+                </exclude>
+                <exclude>
+                    ${project.basedir}/DDEX-XML-UI.png
+                </exclude>
+                <exclude>
+                    ${project.basedir}/README.md
                 </exclude>
             </excludes>
             <outputDirectory>bin</outputDirectory>

@@ -1,6 +1,10 @@
 package net.ddex.ern.initializer;
 
+import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.server.handler.ContextHandler;
+import org.eclipse.jetty.server.handler.HandlerCollection;
+import org.eclipse.jetty.server.handler.ResourceHandler;
 import org.eclipse.jetty.servlet.FilterHolder;
 import org.eclipse.jetty.servlet.FilterMapping;
 import org.eclipse.jetty.servlet.ServletContextHandler;
@@ -43,9 +47,16 @@ public class EmbeddedJetty {
     private void startJetty(int port) throws Exception {
         logger.debug("Starting server at port {}", port);
         Server server = new Server(port);
+
         ServletContextHandler myHand = getServletContextHandler(getContext());
         setAccessControlAllowOrigin(myHand);
-        server.setHandler(myHand);
+
+        ContextHandler resourceHandler = getResourceHandler();
+
+        HandlerCollection handlerCollection = new HandlerCollection();
+        handlerCollection.setHandlers(new Handler[] {resourceHandler, myHand});
+        server.setHandler(handlerCollection);
+
         server.start();
         logger.info("Server started at port {}", port);
         server.join();
@@ -55,7 +66,6 @@ public class EmbeddedJetty {
 
         ServletContextHandler contextHandler = new ServletContextHandler();
         contextHandler.setContextPath(CONTEXT_PATH);
-        contextHandler.setWelcomeFiles(new String[] { "index.html" });
         contextHandler.setErrorHandler(null);
         contextHandler.addServlet(new ServletHolder(new DispatcherServlet(context)), MAPPING_URL);
         contextHandler.addEventListener(new ContextLoaderListener(context));
@@ -63,6 +73,20 @@ public class EmbeddedJetty {
         return contextHandler;
 
     }
+
+    private static ContextHandler getResourceHandler() throws IOException {
+
+        ResourceHandler resourceHandler= new ResourceHandler();
+        resourceHandler.setResourceBase("ddex_resources");
+        resourceHandler.setWelcomeFiles(new String[] { "index.html" });
+        resourceHandler.setDirectoriesListed(true);
+        ContextHandler conHandler= new ContextHandler("/");
+        conHandler.setHandler(resourceHandler);
+
+        return conHandler;
+
+    }
+
 
 
     private static void setAccessControlAllowOrigin(ServletContextHandler context) {
@@ -87,3 +111,4 @@ public class EmbeddedJetty {
     }
 
 }
+
