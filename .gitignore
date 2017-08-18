@@ -4,6 +4,7 @@
 .classpath
 # idea ignore
 .idea/
+jcgresources/
 *.ipr
 *.iml
 *.iws
